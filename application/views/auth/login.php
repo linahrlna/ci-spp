@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
     <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>">
-    <link rel="stylesheet" href="<?php echo base_url('font/iconsmind-s/css/iconsminds.css'); ?>">
-    <link rel="stylesheet" href="<?php echo base_url('font/simple-line-icons/css/simple-line-icons.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/font/iconsmind-s/css/iconsminds.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/font/simple-line-icons/css/simple-line-icons.css'); ?>">
 
-    <link rel="stylesheet" href="<?php echo base_url('css/vendor/bootstrap.min.css'); ?>">
-    <link rel="stylesheet" href="<?php echo base_url('css/vendor/bootstrap.rtl.only.min.css'); ?>">
-    <link rel="stylesheet" href="<?php echo base_url('css/vendor/bootstrap-float-label.min.css'); ?>">
-    <link rel="stylesheet" href="<?php echo base_url('css/main.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/vendor/bootstrap.min.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/vendor/bootstrap.rtl.only.min.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/vendor/bootstrap-float-label.min.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/main.css'); ?>">
 
     <link rel="shortcut icon" href="<?php echo base_url('logo smk.ico'); ?>"> type="image/x-icon">
     <link rel="icon" href="<?php echo base_url('logo smk.ico'); ?>"> type="image/x-icon">
@@ -200,9 +200,9 @@
   </div>
     
     <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
-    <script src="<?php echo base_url('js/vendor/jquery-3.3.1.min.js'); ?>"></script>
-    <script src="<?php echo base_url('js/vendor/bootstrap.bundle.min.js'); ?>"></script>
-    <script src="<?php echo base_url('js/dore.script.js'); ?>"></script>
-    <script src="<?php echo base_url('js/scripts.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/vendor/jquery-3.3.1.min.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/vendor/bootstrap.bundle.min.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/dore.script.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/scripts.js'); ?>"></script>
 </body>
 </html>
