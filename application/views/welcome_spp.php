@@ -5,25 +5,25 @@
         <title>Pembayaran SPP</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-        <link rel="stylesheet" href="<?php echo base_url() ?>font/iconsmind-s/css/iconsminds.css" />
-        <link rel="stylesheet" href="<?php echo base_url() ?>font/simple-line-icons/css/simple-line-icons.css" />
+        <link rel="stylesheet" href="<?php echo base_url('font/iconsmind-s/css/iconsminds.css'); ?>" >
+        <link rel="stylesheet" href="<?php echo base_url('font/simple-line-icons/css/simple-line-icons.css'); ?>" >
     
-        <link rel="stylesheet" href="<?php echo base_url() ?>css/vendor/bootstrap.min.css" />
-        <link rel="stylesheet" href="<?php echo base_url() ?>css/vendor/bootstrap.rtl.only.min.css" />
-        <link rel="stylesheet" href="<?php echo base_url() ?>css/vendor/fullcalendar.min.css" />
-        <link rel="stylesheet" href="<?php echo base_url() ?>css/vendor/dataTables.bootstrap4.min.css" />
-        <link rel="stylesheet" href="<?php echo base_url() ?>css/vendor/datatables.responsive.bootstrap4.min.css" />
-        <link rel="stylesheet" href="<?php echo base_url() ?>css/vendor/select2.min.css" />
-        <link rel="stylesheet" href="<?php echo base_url() ?>css/vendor/perfect-scrollbar.css" />
-        <link rel="stylesheet" href="<?php echo base_url() ?>css/vendor/glide.core.min.css" />
-        <link rel="stylesheet" href="<?php echo base_url() ?>css/vendor/bootstrap-stars.css" />
-        <link rel="stylesheet" href="<?php echo base_url() ?>css/vendor/nouislider.min.css" />
-        <link rel="stylesheet" href="<?php echo base_url() ?>css/vendor/bootstrap-datepicker3.min.css" />
-        <link rel="stylesheet" href="<?php echo base_url() ?>css/vendor/component-custom-switch.min.css" />
-        <link rel="stylesheet" href="<?php echo base_url() ?>css/main.css" />
+        <link rel="stylesheet" href="<?php echo base_url('css/vendor/bootstrap.min.css'); ?>" >
+        <link rel="stylesheet" href="<?php echo base_url('css/vendor/bootstrap.rtl.only.min.css'); ?>" >
+        <link rel="stylesheet" href="<?php echo base_url('css/vendor/fullcalendar.min.css'); ?>" >
+        <link rel="stylesheet" href="<?php echo base_url('css/vendor/dataTables.bootstrap4.min.css'); ?>" >
+        <link rel="stylesheet" href="<?php echo base_url('css/vendor/datatables.responsive.bootstrap4.min.css'); ?>" >
+        <link rel="stylesheet" href="<?php echo base_url('css/vendor/select2.min.css') ?>" >
+        <link rel="stylesheet" href="<?php echo base_url('css/vendor/perfect-scrollbar.css'); ?>" >
+        <link rel="stylesheet" href="<?php echo base_url('css/vendor/glide.core.min.css'); ?>" >
+        <link rel="stylesheet" href="<?php echo base_url('css/vendor/bootstrap-stars.css'); ?>" >
+        <link rel="stylesheet" href="<?php echo base_url('css/vendor/nouislider.min.css'); ?>" >
+        <link rel="stylesheet" href="<?php echo base_url('css/vendor/bootstrap-datepicker3.min.css'); ?>" >
+        <link rel="stylesheet" href="<?php echo base_url('css/vendor/component-custom-switch.min.css'); ?>" >
+        <link rel="stylesheet" href="<?php echo base_url('css/main.css'); ?>" >
     
-        <link rel="shortcut icon" href="<?php echo base_url() ?>logo smk.ico" type="image/x-icon">
-        <link rel="icon" href="<?php echo base_url() ?>logo smk.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="<?php echo base_url('logo smk.ico'); ?>" type="image/x-icon">
+        <link rel="icon" href="<?php echo base_url('logo smk.ico'); ?>" type="image/x-icon">
     </head>
     
     <body id="app-container" class="menu-default show-spinner" <?php echo isset($w) ? $w : null; ?> >
@@ -81,24 +81,24 @@
                 
                             
     
-        <script src="<?php echo base_url() ?>js/vendor/jquery-3.3.1.min.js"></script>
-        <script src="<?php echo base_url() ?>js/vendor/bootstrap.bundle.min.js"></script>
-        <script src="<?php echo base_url() ?>js/vendor/Chart.bundle.min.js"></script>
-        <script src="<?php echo base_url() ?>js/vendor/chartjs-plugin-datalabels.js"></script>
-        <script src="<?php echo base_url() ?>js/vendor/moment.min.js"></script>
-        <script src="<?php echo base_url() ?>js/vendor/fullcalendar.min.js"></script>
-        <script src="<?php echo base_url() ?>js/vendor/datatables.min.js"></script>
-        <script src="<?php echo base_url() ?>js/vendor/perfect-scrollbar.min.js"></script>
-        <script src="<?php echo base_url() ?>js/vendor/progressbar.min.js"></script>
-        <script src="<?php echo base_url() ?>js/vendor/jquery.barrating.min.js"></script>
-        <script src="<?php echo base_url() ?>js/vendor/select2.full.js"></script>
-        <script src="<?php echo base_url() ?>js/vendor/nouislider.min.js"></script>
-        <script src="<?php echo base_url() ?>js/vendor/bootstrap-datepicker.js"></script>
-        <script src="<?php echo base_url() ?>js/vendor/Sortable.js"></script>
-        <script src="<?php echo base_url() ?>js/vendor/mousetrap.min.js"></script>
-        <script src="<?php echo base_url() ?>js/vendor/glide.min.js"></script>
-        <script src="<?php echo base_url() ?>js/dore.script.js"></script>
-        <script src="<?php echo base_url() ?>js/scripts.js"></script>
+        <script src="<?php echo base_url('js/vendor/jquery-3.3.1.min.js'); ?>"></script>
+        <script src="<?php echo base_url('js/vendor/bootstrap.bundle.min.js'); ?>"></script>
+        <script src="<?php echo base_url('js/vendor/Chart.bundle.min.js'); ?>"></script>
+        <script src="<?php echo base_url('js/vendor/chartjs-plugin-datalabels.js'); ?>"></script>
+        <script src="<?php echo base_url('js/vendor/moment.min.js'); ?>"></script>
+        <script src="<?php echo base_url('js/vendor/fullcalendar.min.js') ?>"></script>
+        <script src="<?php echo base_url('js/vendor/datatables.min.js'); ?>"></script>
+        <script src="<?php echo base_url('js/vendor/perfect-scrollbar.min.js'); ?>"></script>
+        <script src="<?php echo base_url('js/vendor/progressbar.min.js'); ?>"></script>
+        <script src="<?php echo base_url('js/vendor/jquery.barrating.min.js'); ?>"></script>
+        <script src="<?php echo base_url('js/vendor/select2.full.js'); ?>"></script>
+        <script src="<?php echo base_url('js/vendor/nouislider.min.js') ?>"></script>
+        <script src="<?php echo base_url('js/vendor/bootstrap-datepicker.js'); ?>"></script>
+        <script src="<?php echo base_url('js/vendor/Sortable.js'); ?>"></script>
+        <script src="<?php echo base_url('js/vendor/mousetrap.min.js'); ?>"></script>
+        <script src="<?php echo base_url('js/vendor/glide.min.js'); ?>"></script>
+        <script src="<?php echo base_url('js/dore.script.js'); ?>"></script>
+        <script src="<?php echo base_url('js/scripts.js'); ?>"></script>
     
     </body>
 </html>
