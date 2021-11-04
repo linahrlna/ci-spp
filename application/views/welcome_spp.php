@@ -22,11 +22,11 @@
         <link rel="stylesheet" href="<?php echo base_url('assets/css/vendor/component-custom-switch.min.css'); ?>" />
         <link rel="stylesheet" href="<?php echo base_url('assets/css/main.css'); ?>" />
     
-        <link rel="shortcut icon" href="<?php echo base_url('logo smk.ico'); ?>" type="image/x-icon">
-        <link rel="icon" href="<?php echo base_url('logo smk.ico'); ?>" type="image/x-icon">
+        <link rel="shortcut icon" href="<?php echo base_url('assets/logo-smk.ico'); ?>" type="image/x-icon">
+        <link rel="icon" href="<?php echo base_url('assets/logo-smk.ico'); ?>" type="image/x-icon">
     </head>
     
-    <body id="app-container" class="menu-default show-spinner" <?php echo isset($w) ? $w : null; ?> >
+    <body id="app-container" class="menu-default show-spinner"  >
             
                 <br>
                 <br>
