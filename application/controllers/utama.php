@@ -12,7 +12,7 @@ class utama extends CI_Controller
 
     function index()
     {
-        $this->load->view('welcome.spp',$data);
+        $this->load->view('welcome_spp');
     }
 
 }
