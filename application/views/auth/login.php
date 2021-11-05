@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/css/vendor/bootstrap-float-label.min.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/main.css'); ?>">
 
-    <link rel="shortcut icon" href="<?php echo base_url('logo smk.ico'); ?>"> type="image/x-icon">
-    <link rel="icon" href="<?php echo base_url('logo smk.ico'); ?>"> type="image/x-icon">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('logo smk.ico'); ?>"> 
+    <link rel="icon" type="image/x-icon" href="<?php echo base_url('logo smk.ico'); ?>"> 
     <style>
 :root {
             --input-padding-x: 1.5rem;
