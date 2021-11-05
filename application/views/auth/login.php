@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/css/vendor/bootstrap-float-label.min.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/main.css'); ?>">
 
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('logo smk.ico'); ?>"> 
-    <link rel="icon" type="image/x-icon" href="<?php echo base_url('logo smk.ico'); ?>"> 
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('assets/logo-smk.ico'); ?>"> 
+    <link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/logo-smk.ico'); ?>"> 
     <style>
 :root {
             --input-padding-x: 1.5rem;
@@ -23,8 +23,8 @@
         }
 
         body {
-            background: #007bff;
-            background: linear-gradient(to right, #93f98c, #93f98c);
+            background: url("assets/img/login/balloon-lg.jpg");
+            
         }
 
         .card-signin {
@@ -162,7 +162,7 @@
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
         <div class="card card-signin my-5">
           <div class="card-body">
-            <h5 class="card-title text-center">Sign In</h5>
+            <h5 class="card-title text-center">LOGIN</h5>
             <?php
                 $errors = $this->session->flashdata('errors');
                 if(!empty($errors)){
@@ -191,7 +191,7 @@
               
               <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
               <br>
-              <center><a href="<?php echo base_url() ?>auth/register">To SignUp Click Here</a></center>
+              <center><a href="<?php echo base_url('auth/register'); ?>">To SignUp Click Here</a></center>
             </form>
           </div>
         </div>
