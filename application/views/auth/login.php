@@ -22,8 +22,7 @@
             --input-padding-y: .75rem;
         }
 
-        body {
-            background: url("assets/img/login/balloon-lg.jpg");
+        
             
         }
 
@@ -156,14 +155,27 @@
         }
     </style>
 </head>
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-        <div class="card card-signin my-5">
-          <div class="card-body">
-            <h5 class="card-title text-center">LOGIN</h5>
-            <?php
+<body class="background show-spinner no-footer">
+    <div class="fixed-background"></div>
+    <main>
+        <div class="container">
+            <div class="row h-100">
+                <div class="col-12 col-md-10 mx-auto my-auto">
+                    <div class="card auth-card">
+                        <div class="position-relative image-side ">
+
+                            <p class=" text-black h2">Pembayaran SPP SMK Negeri 12 Malang</p>
+
+                            <p class="black mb-0">
+                                Membantu Siswa Dalam Pembayaran SPP online.
+                                
+                            </p>
+                        </div>
+                        <div class="form-side">
+                            <a href="Dashboard.Default.html">
+                                <span class="logo-single"></span>
+                            </a>
+                            <?php
                 $errors = $this->session->flashdata('errors');
                 if(!empty($errors)){
                 ?>
@@ -177,27 +189,30 @@
                     </div>
                 </div>
             <?php } ?>
-            <form class="form-signin" action="<?php echo base_url('auth/proses_login'); ?>" method="post">
-              <div class="form-label-group">
-                <input type="text" name="username" id="text" class="form-control" placeholder="Email address" required autofocus>
-                <label for="inputUsername">Username</label>
-              </div>
 
-              <div class="form-label-group">
-                <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                <label for="inputPassword">Password</label>
-              </div>
+                            <h6 class="mb-4">Masuk</h6>
+                            <form>
+                                <label class="form-group has-float-label mb-4">
+                                    <input class="form-control" />
+                                    <span>E-mail</span>
+                                </label>
 
-              
-              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
-              <br>
-              <center><a href="<?php echo base_url('auth/register'); ?>">To SignUp Click Here</a></center>
-            </form>
-          </div>
+                                <label class="form-group has-float-label mb-4">
+                                    <input class="form-control" type="password" placeholder="" />
+                                    <span>Password</span>
+                                </label>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a  href="Dashboard.Default.html">
+                                    <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">MASUK</button>
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
+    </main>
     
     <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
     <script src="<?php echo base_url('assets/js/vendor/jquery-3.3.1.min.js'); ?>"></script>
