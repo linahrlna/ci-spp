@@ -26,7 +26,7 @@ class Auth extends CI_Controller {
         $this->load->library('form_validation');
         $this->load->library('session');
 
-        $this->form_validation->set_rules('username', 'Username', 'required');
+        $this->form_validation->set_rules('email', 'email', 'required');
         $this->form_validation->set_rules('password', 'Password', 'required');
         
         if ($this->form_validation->run() == FALSE) {
@@ -37,28 +37,28 @@ class Auth extends CI_Controller {
         
         } else {
 
-            $username = htmlspecialchars($this->input->post('username'));
+            $username = htmlspecialchars($this->input->post('email'));
             $pass = htmlspecialchars($this->input->post('password'));
 
             // CEK KE DATABASE BERDASARKAN EMAIL
-            $cek_login = $this->m_auth->cek_login($username); 
+            $cek_login = $this->m_auth->cek_login($email); 
                 
             if($cek_login == FALSE)
             {
-                echo '<script>alert("Username yang Anda masukan salah.");window.location.href="'.base_url('auth/login').'";</script>';
+                echo '<script>alert("email yang Anda masukan salah.");window.location.href="'.base_url('auth/login').'";</script>';
             
             } else {
             
                 if(password_verify($pass, $cek_login->password)){
                     // if the username and password is a match
                     $this->session->set_userdata('id', $cek_login->id);
-                    $this->session->set_userdata('username', $cek_login->username);
+                    $this->session->set_userdata('username', $cek_login->email);
                     $this->session->set_userdata('name', $cek_login->name);
                     
                     redirect('/crud');
                         
                 } else {
-                    echo '<script>alert("Username atau Password yang Anda masukan salah.");window.location.href="'.base_url('auth/login').'";</script>';
+                    echo '<script>alert("email atau Password yang Anda masukan salah.");window.location.href="'.base_url('auth/login').'";</script>';
                 }
             }
         }
@@ -70,7 +70,7 @@ class Auth extends CI_Controller {
         $this->load->library('session');
 
         $this->form_validation->set_rules('name', 'Nama', 'required');
-        $this->form_validation->set_rules('username', 'Username', 'required|min_length[5]|max_length[15]|is_unique[users.username]');
+        $this->form_validation->set_rules('email', 'email', 'required|min_length[5]|max_length[15]|is_unique[users.username]');
         $this->form_validation->set_rules('password', 'Password', 'required|trim');
         
         if ($this->form_validation->run() == FALSE) {
@@ -79,12 +79,12 @@ class Auth extends CI_Controller {
             $this->session->set_flashdata('input', $this->input->post());
             redirect('auth/register');
         } else {
-            $username = $this->input->post('username');
+            $email = $this->input->post('email');
             $name = $this->input->post('name');
             $password = $this->input->post('password');
             $pass = password_hash($password, PASSWORD_DEFAULT);
             $data = [
-                'username' => $username,
+                'email' => $email,
                 'name' => $name,
                 'password' => $pass
             ];
