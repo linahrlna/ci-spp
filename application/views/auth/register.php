@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/css/vendor/bootstrap.rtl.only.min.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/vendor/bootstrap-float-label.min.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/main.css'); ?>">
+
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('assets/logo-smk.ico'); ?>"> 
+    <link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/logo-smk.ico'); ?>"> 
     <style>
 :root {
             --input-padding-x: 1.5rem;
@@ -20,8 +23,7 @@
         }
 
         body {
-            background: #007bff;
-            background: linear-gradient(to right, #93f98c, #93f98c);
+            background: url("assets/img/login/balloon-lg.jpg");
         }
 
         .card-signin {
