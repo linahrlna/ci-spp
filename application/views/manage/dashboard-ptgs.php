@@ -23,7 +23,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/vendor/nouislider.min.css'); ?>" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/vendor/bootstrap-datepicker3.min.css'); ?>" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/vendor/component-custom-switch.min.css'); ?>" />
-    <link rel="stylesheet" type="text/css"href="<?php echo base_url('../assets/css/main.css'); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/main.css'); ?>" />
 
     <link rel="shortcut icon" href="<?php echo base_url('assets/logo-smk.ico'); ?>" type="image/x-icon">
     <link rel="icon" href="<?php echo base_url('assets/logo-smk.ico'); ?>" type="image/x-icon">
