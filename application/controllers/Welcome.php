@@ -21,7 +21,7 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 
-		$this->load->view('auth/login');
+		$this->load->view('manage/dashboard-ptgs');
 
 	}
 }
