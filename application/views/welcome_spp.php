@@ -5,24 +5,24 @@
         <title>Pembayaran SPP</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/font/iconsmind-s/css/iconsminds.css'); ?>" />
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/font/simple-line-icons/css/simple-line-icons.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../ci-spp/assets/font/iconsmind-s/css/iconsminds.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../ci-spp/assets/font/simple-line-icons/css/simple-line-icons.css'); ?>" />
     
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/dore.light.yellowgranola.css'); ?>" />
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/dore.light.yellowgranola.min.css'); ?>" />
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/vendor/bootstrap.min.css'); ?>" />
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/vendor/bootstrap.rtl.only.min.css'); ?>" />
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/vendor/fullcalendar.min.css'); ?>" />
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/vendor/dataTables.bootstrap4.min.css'); ?>" />
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/vendor/datatables.responsive.bootstrap4.min.css'); ?>" />
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/vendor/select2.min.css'); ?>" />
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/vendor/perfect-scrollbar.css'); ?>" />
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/vendor/glide.core.min.css'); ?>" />
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/vendor/bootstrap-stars.css'); ?>" />
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/vendor/nouislider.min.css'); ?>" />
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/vendor/bootstrap-datepicker3.min.css'); ?>" />
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../assets/css/vendor/component-custom-switch.min.css'); ?>" />
-        <link rel="stylesheet" type="text/css"href="<?php echo base_url('../assets/css/main.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../ci-spp/assets/css/dore.light.yellowgranola.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../ci-spp/assets/css/dore.light.yellowgranola.min.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../ci-spp/assets/css/vendor/bootstrap.min.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../ci-spp/assets/css/vendor/bootstrap.rtl.only.min.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../ci-spp/assets/css/vendor/fullcalendar.min.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../ci-spp/assets/css/vendor/dataTables.bootstrap4.min.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../ci-spp/assets/css/vendor/datatables.responsive.bootstrap4.min.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../ci-spp/assets/css/vendor/select2.min.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../ci-spp/assets/css/vendor/perfect-scrollbar.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../ci-spp/assets/css/vendor/glide.core.min.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../ci-spp/assets/css/vendor/bootstrap-stars.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../ci-spp/assets/css/vendor/nouislider.min.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../ci-spp/assets/css/vendor/bootstrap-datepicker3.min.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../ci-spp/assets/css/vendor/component-custom-switch.min.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('../ci-spp/assets/css/main.css'); ?>" />
     
         <link rel="shortcut icon" href="<?php echo base_url('assets/logo-smk.ico'); ?>" type="image/x-icon">
         <link rel="icon" href="<?php echo base_url('assets/logo-smk.ico'); ?>" type="image/x-icon">
@@ -83,24 +83,24 @@
                 
                             
     
-        <script src="<?php echo base_url('../assets/js/vendor/jquery-3.3.1.min.js'); ?>"></script>
-        <script src="<?php echo base_url('../assets/js/vendor/bootstrap.bundle.min.js'); ?>"></script>
-        <script src="<?php echo base_url('../assets/js/vendor/Chart.bundle.min.js'); ?>"></script>
-        <script src="<?php echo base_url('../assets/js/vendor/chartjs-plugin-datalabels.js'); ?>"></script>
-        <script src="<?php echo base_url('../assets/js/vendor/moment.min.js'); ?>"></script>
-        <script src="<?php echo base_url('../assets/js/vendor/fullcalendar.min.js'); ?>"></script>
-        <script src="<?php echo base_url('../assets/js/vendor/datatables.min.js'); ?>"></script>
-        <script src="<?php echo base_url('../assets/js/vendor/perfect-scrollbar.min.js'); ?>"></script>
-        <script src="<?php echo base_url('../assets/js/vendor/progressbar.min.js'); ?>"></script>
-        <script src="<?php echo base_url('../assets/js/vendor/jquery.barrating.min.js'); ?>"></script>
-        <script src="<?php echo base_url('../assets/js/vendor/select2.full.js'); ?>"></script>
-        <script src="<?php echo base_url('../assets/js/vendor/nouislider.min.js'); ?>"></script>
-        <script src="<?php echo base_url('../assets/js/vendor/bootstrap-datepicker.js'); ?>"></script>
-        <script src="<?php echo base_url('../assets/js/vendor/Sortable.js'); ?>"></script>
-        <script src="<?php echo base_url('../assets/js/vendor/mousetrap.min.js'); ?>"></script>
-        <script src="<?php echo base_url('../assets/js/vendor/glide.min.js'); ?>"></script>
-        <script src="<?php echo base_url('../assets/js/dore.script.js'); ?>"></script>
-        <script src="<?php echo base_url('../assets/js/scripts.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/vendor/jquery-3.3.1.min.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/vendor/bootstrap.bundle.min.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/vendor/Chart.bundle.min.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/vendor/chartjs-plugin-datalabels.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/vendor/moment.min.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/vendor/fullcalendar.min.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/vendor/datatables.min.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/vendor/perfect-scrollbar.min.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/vendor/progressbar.min.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/vendor/jquery.barrating.min.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/vendor/select2.full.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/vendor/nouislider.min.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/vendor/bootstrap-datepicker.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/vendor/Sortable.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/vendor/mousetrap.min.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/vendor/glide.min.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/dore.script.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/scripts.js'); ?>"></script>
     
     </body>
 </html>
