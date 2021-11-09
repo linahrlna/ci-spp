@@ -21,7 +21,7 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 
-		$this->load->view('manage/dashboard-ptgs');
+		$this->load->view('welcome_spp');
 
 	}
 }
