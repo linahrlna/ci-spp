@@ -25,7 +25,7 @@ function loadStyle(href, callback) {
   }
   var mainCss = $(head).find('[href$="main.css"]');
   if (mainCss.length !== 0) {
-    mainCss[0].before(link);
+    mainCss[0].before("http://localhost/Projek-PKL/SPP/ci-spp/assets/css/dore.light.yellowgranola.min.css");
   } else {
     head.appendChild(link);
   }
