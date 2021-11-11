@@ -6,19 +6,19 @@
     <title>Pembayaran SPP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <link rel="stylesheet" href="font/iconsmind-s/css/iconsminds.css" />
-    <link rel="stylesheet" href="font/simple-line-icons/css/simple-line-icons.css" />
+    <link rel="stylesheet" href="<?php echo base_url() ?>../ci-spp/assets/font/iconsmind-s/css/iconsminds.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>../ci-spp/assets/font/simple-line-icons/css/simple-line-icons.css" />
 
-    <link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/vendor/bootstrap.rtl.only.min.css" />
-    <link rel="stylesheet" href="css/vendor/component-custom-switch.min.css" />
-    <link rel="stylesheet" href="css/vendor/glide.core.min.css" />
-    <link rel="stylesheet" href="css/vendor/perfect-scrollbar.css" />
-    <link rel="stylesheet" href="css/vendor/baguetteBox.min.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="<?php echo base_url() ?>../ci-spp/assets/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="<?php echo base_url() ?>../ci-spp/assets/css/vendor/bootstrap.rtl.only.min.css" />
+    <link rel="stylesheet" href="<?php echo base_url() ?>../ci-spp/assets/css/vendor/component-custom-switch.min.css" />
+    <link rel="stylesheet" href="<?php echo base_url() ?>../ci-spp/assets/css/vendor/glide.core.min.css" />
+    <link rel="stylesheet" href="<?php echo base_url() ?>../ci-spp/assets/css/vendor/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="<?php echo base_url() ?>../ci-spp/assets/css/vendor/baguetteBox.min.css" />
+    <link rel="stylesheet" href="<?php echo base_url() ?>../ci-spp/assets/css/main.css" />
 
-    <link rel="shortcut icon" href="logo smk.ico" type="image/x-icon">
-    <link rel="icon" href="logo smk.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo base_url() ?>/assets/logo-smk.ico" type="image/x-icon">
+    <link rel="icon" href="<?php echo base_url() ?>/assets/logo-smk.ico" type="image/x-icon">
 </head>
 
 <body id="app-container" class="menu-default show-spinner">
@@ -65,7 +65,7 @@
                     aria-expanded="false">
                     <span class="name">Siswa</span>
                     <span>
-                        <img alt="Profile Picture" src="img/profiles/l-1.jpg" />
+                        <img alt="Profile Picture" src="assets/img/profiles/l-1.jpg" />
                     </span>
                 </button>
 
@@ -117,13 +117,13 @@
                     
                                  
     </main>
-    <script src="js/vendor/jquery-3.3.1.min.js"></script>
-    <script src="js/vendor/bootstrap.bundle.min.js"></script>
-    <script src="js/vendor/perfect-scrollbar.min.js"></script>
-    <script src="js/vendor/baguetteBox.min.js"></script>
-    <script src="js/vendor/glide.min.js"></script>
-    <script src="js/dore.script.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="<?php echo base_url() ?>/assets/js/vendor/jquery-3.3.1.min.js"></script>
+    <script src="<?php echo base_url() ?>../ci-spp/assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo base_url() ?>../ci-spp/assets/js/vendor/perfect-scrollbar.min.js"></script>
+    <script src="<?php echo base_url() ?>../ci-spp/assets/js/vendor/baguetteBox.min.js"></script>
+    <script src="<?php echo base_url() ?>../ci-spp/assets/js/vendor/glide.min.js"></script>
+    <script src="<?php echo base_url() ?>../ci-spp/assets/js/dore.script.js"></script>
+    <script src="<?php echo base_url() ?>../ci-spp/assets/js/scripts.js"></script>
 </body>
 
 </html>
