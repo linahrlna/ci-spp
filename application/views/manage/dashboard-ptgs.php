@@ -85,7 +85,7 @@
                     aria-expanded="false">
                     <span class="name">Petugas</span>
                     <span>
-                        <img alt="Profile Picture" src="img/profiles/l-1.jpg" />
+                        <img alt="Profile Picture" src="assets/img/profiles/l-1.jpg" />
                     </span>
                 </button>
 
@@ -257,7 +257,7 @@
             </div>  
                    
 
-            <script src="<?php echo base_url('../ci-spp/assets/js/vendor/jquery-3.3.1.min.js'); ?>"></script>
+        <script src="<?php echo base_url('../ci-spp/assets/js/vendor/jquery-3.3.1.min.js'); ?>"></script>
         <script src="<?php echo base_url('../ci-spp/assets/js/vendor/bootstrap.bundle.min.js'); ?>"></script>
         <script src="<?php echo base_url('../ci-spp/assets/js/vendor/Chart.bundle.min.js'); ?>"></script>
         <script src="<?php echo base_url('../ci-spp/assets/js/vendor/chartjs-plugin-datalabels.js'); ?>"></script>
